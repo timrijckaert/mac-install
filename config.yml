@@ -33,12 +33,14 @@ homebrew_installed_packages:
   - svgo
   - tree
   - wget
+  - terraform
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-versions
   - homebrew/cask-drivers
+  - hashicorp/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -47,7 +49,7 @@ homebrew_cask_apps:
   - alfred
 #  - charles
   - db-browser-for-sqlite
-  - docker
+#  - docker
 #  - flutter
   - google-cloud-sdk
   - google-chrome
@@ -58,7 +60,8 @@ homebrew_cask_apps:
   - kaleidoscope
   - ngrok
   - obsidian
-  - paletro
+  - podman-desktop
+# - paletro
   - proxyman
   - rapidapi
   - resilio-sync

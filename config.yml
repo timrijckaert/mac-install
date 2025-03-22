@@ -34,6 +34,8 @@ homebrew_installed_packages:
   - tree
   - wget
   - terraform
+  - bitwarden-cli
+  - smithy-cli
 
 homebrew_taps:
   - homebrew/core
@@ -41,12 +43,13 @@ homebrew_taps:
   - homebrew/cask-versions
   - homebrew/cask-drivers
   - hashicorp/tap
+  - smithy-lang/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - 1password7
 #  - affinity-photo
-  - alfred
+#  - alfred
 #  - charles
   - db-browser-for-sqlite
 #  - docker
@@ -60,10 +63,11 @@ homebrew_cask_apps:
   - kaleidoscope
   - ngrok
   - obsidian
-  - podman-desktop
+#  - podman-desktop
 # - paletro
   - proxyman
   - rapidapi
+  - raycast
   - resilio-sync
   - slack
   - visual-studio-code
